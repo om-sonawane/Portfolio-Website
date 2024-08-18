@@ -1,0 +1,20 @@
+            <!-- TERMINAL CODE -->
+            <br>
+            <div id="card" class="card">
+                <div class="content">
+                    <div class="card-body">
+                        <div class="code-container float-animation">
+                            <span class="line"><span class="code-comment">// Código de example</span></span>
+                            <span class="line"><span class="code-keyword">function</span> <span
+                                    class="code-function">example</span>()</span>
+                            <span class="line">{</span>
+                            <span class="line indent"><span class="code-keyword">let</span> <span
+                                    class="code-variable">message</span> = <span class="code-string">"Hello,
+                                    World!"</span>;</span>
+                            <span class="line indent"><span class="code-built-in">console</span>.<span
+                                    class="code-method">log</span>(<span class="code-variable">message</span>);</span>
+                            <span class="line">}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
