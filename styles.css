@@ -221,7 +221,7 @@ button {
   margin: 0 auto;
   justify-content: space-between;
   position: sticky;
-  top: 0;
+  top: 9px;
   display:flex;
   align-items: start;}
 .logo-wraper{
@@ -405,18 +405,16 @@ main {
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
 }
-
-.project .link--icon {
-  margin-left: 0.5em;
+.links-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between the icons */
 }
 .link--icon {
-  display: inline-block;
-  margin-right: 10px; /* Adjust the spacing between the icons as needed */
+  display: flex;
+  align-items: center;
 }
 
-.link--icon:last-child {
-  margin-right: 0; /* Remove margin from the last link */
-}
 
 
 /* my code*/
