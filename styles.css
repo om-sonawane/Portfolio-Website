@@ -216,15 +216,17 @@ button {
 }
 
 .header {
-  height: 8em;
   max-width: 100%;
-  width: 90%;
+  padding:0 5%;
   margin: 0 auto;
   justify-content: space-between;
   position: sticky;
   top: 0;
+  display:flex;
+  align-items: start;}
+.logo-wraper{
+  height: 50px;
 }
-
 main {
   max-width: 1100px;
   width: 95%;
@@ -407,6 +409,15 @@ main {
 .project .link--icon {
   margin-left: 0.5em;
 }
+.link--icon {
+  display: inline-block;
+  margin-right: 10px; /* Adjust the spacing between the icons as needed */
+}
+
+.link--icon:last-child {
+  margin-right: 0; /* Remove margin from the last link */
+}
+
 
 /* my code*/
 .skills__list {
@@ -449,8 +460,15 @@ main {
 }
 
 @media (max-width: 600px) {
-  .header {
-    height: 6em;
+  .projects__grid .project{
+    position: relative;
+  }
+  .project__back{
+    position: absolute;
+    top:0;
+  }
+  .project__front{
+    position: relative;
   }
 
   .section {
@@ -463,11 +481,12 @@ main {
     position: absolute;
     right: 0;
     left: 0;
-    top: 5em;
+    top: 0;
     background-color: var(--clr-bg);
     width: 0;
     overflow: hidden;
     transition: width 0.2s ease-in-out;
+    opacity: 0.9;
   }
 
   .display-nav-list {
@@ -481,6 +500,7 @@ main {
   .nav__hamburger {
     display: flex;
     margin-left: 0.8em;
+    z-index: 9;
   }
 
   .about {
