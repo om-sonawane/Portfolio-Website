@@ -1,469 +1,590 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="/icons/new.png" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>OM SONAWANE</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
-  <link rel="icon" type="image/x-icon" href="/icons/new.png">
-  <link rel="stylesheet" href="/styles.css" />
-  <title>OM SONAWANE</title>
-</head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <img id="logo" src="/icons/logo.png" alt="Logo" class="logo-wraper" />
+      </h3>
 
-<body class="light" id="top">
-  <header class="header center">
-    <h3>
-    <img id="logo"src="/icons/logo.png" alt="Logo" class="logo-wraper">
-    </h3>
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="/blog/blog.html">Blog</a>
+          </li>
 
-    <nav class="nav center">
-      <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
 
-        <li class="nav__list-item">
-          <a class="link link--nav" href="/blog/blog.html">Blog</a>
-        </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
 
-        <li class="nav__list-item">
-          <a class="link link--nav" href="#projects">Projects</a>
-        </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#certificates">Certificates</a>
+          </li>
 
-        <li class="nav__list-item">
-          <a class="link link--nav" href="#skills">Skills</a>
-        </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
 
-        <li class="nav__list-item">
-          <a class="link link--nav" href="#certificates">Certificates</a>
-        </li>
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
 
-        <li class="nav__list-item">
-          <a class="link link--nav" href="#contact">Contact</a>
-        </li> 
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
 
-      </ul>
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">OM SONAWANE.</span></h1>
+        <!-- <h2 class="about__role">A Front end Developer.</h2> -->
+        <p class="about__desc">
+          I am a dedicated student at KCES's College of Engineering and
+          Management, currently in my final year of B.Tech in Computer Science
+          and Engineering. My academic journey has ignited a deep passion for
+          web development, particularly in front-end design and UI/UX. I find
+          great satisfaction in creating responsive, user-friendly websites and
+          applications using HTML, CSS, JavaScript, and PHP to ensure seamless
+          user experiences.
+          <br /><br />
+          In addition to my enthusiasm in Cyber Security, I am proficient in
+          programming languages such as Python and have hands-on experience with
+          Linux and cloud-based technologies. I enjoy leveraging these skills to
+          solve complex problems, develop innovative solutions, and continuously
+          enhance my technical capabilities.
+          <br /><br />
+          Looking ahead, I am excited to bring my knowledge and skills into
+          real-world environments, where I can collaborate with talented
+          professionals and make meaningful contributions to the tech industry.
+          Whether it's through innovative projects, teamwork, or continuous
+          learning, I am eager to embrace new challenges and opportunities in
+          this ever-evolving field. Thank you for taking the time to explore my
+          portfolio—I look forward to the connections and opportunities that lie
+          ahead!
+        </p>
 
-      <button type="button" aria-label="toggle theme" class="btn btn--icon">
-        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
-      </button>
+        <div class="about__contact center">
+          <a
+            href="https://drive.google.com/file/d/1Z4Ij9Vqmkt7h-Iv1Jp0_gGBwERW506Q7/view?usp=drive_link"
+            target="_blank"
+          >
+            <span class="btn btn--outline">Resume</span>
+          </a>
 
-      <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
-        <i aria-hidden="true" class="fas fa-bars"></i>
-      </button>
-    </nav>
-  </header>
-  
+          <a
+            href="https://github.com/om-sonawane"
+            target="_blank"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
 
-  <main>
-    <!-- About -->
-    <div class="about center">
-      <h1>Hi, I am <span class="about__name">OM SONAWANE.</span></h1>
-      <!-- <h2 class="about__role">A Front end Developer.</h2> -->
-      <p class="about__desc">
-        I am a dedicated student at KCES's College of Engineering and Management, currently in my final year of B.Tech in Computer Science and Engineering.
-        My academic journey has ignited a deep passion for web development, particularly in front-end design and UI/UX.
-        I find great satisfaction in creating responsive, user-friendly websites and applications using HTML, CSS, JavaScript,
-        and PHP to ensure seamless user experiences.
-        <br><br>
-        In addition to my enthusiasm in Cyber Security, I am proficient in programming languages such as Python
-        and have hands-on experience with Linux and cloud-based technologies. I enjoy leveraging these skills to
-        solve complex problems, develop innovative solutions, and continuously enhance my technical capabilities.
-        <br><br>
-        Looking ahead, I am excited to bring my knowledge and skills into real-world environments, 
-        where I can collaborate with talented professionals and make meaningful contributions to the tech industry.
-        Whether it's through innovative projects, teamwork, or continuous learning, I am eager to embrace new challenges
-        and opportunities in this ever-evolving field. Thank you for taking the time to explore my portfolio—I look forward to the connections and opportunities that lie ahead!
-      </p>
-
-      <div class="about__contact center">
-        <a href="https://drive.google.com/file/d/1Z4Ij9Vqmkt7h-Iv1Jp0_gGBwERW506Q7/view?usp=drive_link" target="_blank">
-          <span class="btn btn--outline">Resume</span> 
-        </a>
-
-        <a href="https://github.com/om-sonawane" target="_blank" aria-label="github" class="link link--icon">
-          <i aria-hidden="true" class="fab fa-github"></i>
-        </a>
-
-        <a href="https://www.linkedin.com/in/om-sonawane-23bab11b8/" target="_blank" aria-label="linkedin" class="link link--icon">
-          <i aria-hidden="true" class="fab fa-linkedin"></i>
-        </a>
-      </div>
-    </div>
-
-
-
-    <!-- Projects -->
-    <section id="projects" class="section projects">
-      <h2 class="section__title">Projects</h2>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="projects__grid">
-    <div class="project">
-      <div class="project__inner">
-        <!-- Front of the card -->
-        <div class="project__front">
-          <img src="/icons/Ai-ChatBot.png" alt="AI Chat Bot" class="project__image">
-        </div>
-        <!-- Back of the card -->
-        <div class="project__back">
-          <h3>AI CHAT BOT</h3>
-          <p class="project__description">
-            Our AI Chatbot offers seamless and intuitive conversations. This chatbot is designed to engage in natural, human-like conversations with users.
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">Python</li>
-            <li class="project__stack-item">NLP</li>
-            <li class="project__stack-item">HTML CSS</li>
-          </ul>
-          <div class="links-container">
-            <a href="https://github.com/om-sonawane" aria-label="source code" class="link link--icon">
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a href="https://example.com" aria-label="live preview" class="link link--icon">
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
+          <a
+            href="https://www.linkedin.com/in/om-sonawane-23bab11b8/"
+            target="_blank"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
         </div>
       </div>
-    </div>
-  
-    <div class="project">
-      <div class="project__inner">
-        <!-- Front of the card -->
-        <div class="project__front">
-          <img src="/icons/portfolio.png" alt="Portfolio Website" class="project__image">
-        </div>
-        <!-- Back of the card -->
-        <div class="project__back">
-          <h3>Portfolio Website</h3>
-          <p class="project__description">
-            Built with HTML and CSS, my portfolio website highlights my projects and skills in a sleek, user-friendly interface. Explore my work and achievements in a visually appealing environment.
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">HTML</li>
-            <li class="project__stack-item">CSS</li>
-            <li class="project__stack-item">JS</li>
-          </ul>
-          <div class="links-container">
-            <a href="https://github.com/om-sonawane" aria-label="source code" class="link link--icon">
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a href="https://omiiii-portfolio.vercel.app/" aria-label="live preview" class="link link--icon">
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <div class="project">
-      <div class="project__inner">
-        <!-- Front of the card -->
-        <div class="project__front">
-          <img src="/icons/VR-Travelling.png" alt="VR Travelling Website" class="project__image">
-        </div>
-        <!-- Back of the card -->
-        <div class="project__back">
-          <h3>VR Travelling Website</h3>
-          <p class="project__description">
-            Welcome to our Virtual Reality (VR) Traveling Website — an innovative platform that brings the world’s most famous landmarks directly to your screen.
-          </p>
-          <ul class="project__stack">
-            <li class="project__stack-item">HTML</li>
-            <li class="project__stack-item">CSS</li>
-            <li class="project__stack-item">JS</li>
-          </ul>
-          <div class="links-container">
-            <a href="https://github.com/om-sonawane" aria-label="source code" class="link link--icon">
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a href="https://vr-travelling-website.vercel.app/index.html" aria-label="live preview" class="link link--icon">
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-  </div>
-      <br>
-      <br>
-      <br>
-      
-  </section>
-            <!-- Skills -->
-    <section class="section skills" id="skills">
-      <h2 class="section__title">Skills</h2>
-      <ul class="skills__list">
-        <li class="skills__list-item btn btn--plain">HTML</li>
-        <li class="skills__list-item btn btn--plain">CSS</li>
-        <li class="skills__list-item btn btn--plain">JavaScript</li>
-        <li class="skills__list-item btn btn--plain">Python</li>
-        <li class="skills__list-item btn btn--plain">Angular</li>
-        <li class="skills__list-item btn btn--plain">C</li>
-        <li class="skills__list-item btn btn--plain">BootStrap</li>
-        <li class="skills__list-item btn btn--plain">FireBase</li>
-        <li class="skills__list-item btn btn--plain">PHP</li>
-        <li class="skills__list-item btn btn--plain">Figma</li>
-        <li class="skills__list-item btn btn--plain">Canva</li>
-        <li class="skills__list-item btn btn--plain">GitHub</li>
-        <li class="skills__list-item btn btn--plain">Linux</li>
-   
 
-      </ul>
-    </section>
-
-
-    <!-- certificates -->
-    <section id="certificates" class="section certificates">
-      <h2 class="section__title">Certificates</h2>
-      <div class="certificates__grid">
-        
-        <div class="card">
-          <div class="content">
-            <div class="icon">
-              <img src="icons/Udemy-Logo.png" alt="udemy">
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="projects__grid">
+          <div class="project">
+            <div class="project__inner">
+              <!-- Front of the card -->
+              <div class="project__front">
+                <img
+                  src="/icons/Ai-ChatBot.png"
+                  alt="AI Chat Bot"
+                  class="project__image"
+                />
+              </div>
+              <!-- Back of the card -->
+              <div class="project__back">
+                <h3>AI CHAT BOT</h3>
+                <p class="project__description">
+                  Our AI Chatbot offers seamless and intuitive conversations.
+                  This chatbot is designed to engage in natural, human-like
+                  conversations with users.
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item">Python</li>
+                  <li class="project__stack-item">NLP</li>
+                  <li class="project__stack-item">HTML CSS</li>
+                </ul>
+                <div class="links-container">
+                  <a
+                    href="https://github.com/om-sonawane"
+                    aria-label="source code"
+                    class="link link--icon"
+                  >
+                    <i aria-hidden="true" class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://example.com"
+                    aria-label="live preview"
+                    class="link link--icon"
+                  >
+                    <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
             </div>
-            <p class="cheading"> Introduction to programming Using Python
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            
-
-            <p class="para para-sm">
-              <span class="date">Jun 12, 2024</span>
-              <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-385c6ecb-922a-4e55-82aa-8cbb74fa27eb.jpg?v=1634193886000"
-                target="_blank" aria-label="live preview">
-                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-              </a>
-            </p>
-
           </div>
-        </div>
 
-        <div class="card">
-          <div class="content">
-            <div class="icon">
-              <img src="icons\JP-Morgan-Chase-Emblem.png" alt="jpm">
+          <div class="project">
+            <div class="project__inner">
+              <!-- Front of the card -->
+              <div class="project__front">
+                <img
+                  src="/icons/portfolio.png"
+                  alt="Portfolio Website"
+                  class="project__image"
+                />
+              </div>
+              <!-- Back of the card -->
+              <div class="project__back">
+                <h3>Portfolio Website</h3>
+                <p class="project__description">
+                  Built with HTML and CSS, my portfolio website highlights my
+                  projects and skills in a sleek, user-friendly interface.
+                  Explore my work and achievements in a visually appealing
+                  environment.
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item">HTML</li>
+                  <li class="project__stack-item">CSS</li>
+                  <li class="project__stack-item">JS</li>
+                </ul>
+                <div class="links-container">
+                  <a
+                    href="https://github.com/om-sonawane"
+                    aria-label="source code"
+                    class="link link--icon"
+                  >
+                    <i aria-hidden="true" class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://omiiii-portfolio.vercel.app/"
+                    aria-label="live preview"
+                    class="link link--icon"
+                  >
+                    <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
             </div>
-            <p class="cheading"> J.P.Morgan-Software Engineering
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
-            <!-- <p class="para">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p> -->
-            <p class="para para-sm">
-              <span class="date">Mar 28, 2024</span>
-              <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_gn4qj4H47T9pZqoLc_1721556860858_completion_certificate.pdf"
-                target="_blank" aria-label="live preview">
-                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-              </a>
-            </p>
           </div>
-        </div>
 
-
-        <div class="card">
-          <div class="content">
-            <div class="icon">
-              <img src="icons\Goldman-Sachs-Logo-2020.png" alt="GoldmanSach">
+          <div class="project">
+            <div class="project__inner">
+              <!-- Front of the card -->
+              <div class="project__front">
+                <img
+                  src="/icons/VR-Travelling.png"
+                  alt="VR Travelling Website"
+                  class="project__image"
+                />
+              </div>
+              <!-- Back of the card -->
+              <div class="project__back">
+                <h3>VR Travelling Website</h3>
+                <p class="project__description">
+                  Welcome to our Virtual Reality (VR) Traveling Website — an
+                  innovative platform that brings the world’s most famous
+                  landmarks directly to your screen.
+                </p>
+                <ul class="project__stack">
+                  <li class="project__stack-item">HTML</li>
+                  <li class="project__stack-item">CSS</li>
+                  <li class="project__stack-item">JS</li>
+                </ul>
+                <div class="links-container">
+                  <a
+                    href="https://github.com/om-sonawane"
+                    aria-label="source code"
+                    class="link link--icon"
+                  >
+                    <i aria-hidden="true" class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://vr-travelling-website.vercel.app/index.html"
+                    aria-label="live preview"
+                    class="link link--icon"
+                  >
+                    <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
             </div>
-            <p class="cheading">Goldman-Sachs Software Developer
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-           
-           <!--this one is also in progress so hit in stared tabs'''-->
-            <p class="para para-sm">
-              <span class="date">Jul 1, 2024</span>
-              <a href="https://example.com/"
-                target="_blank" aria-label="live preview">
-                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-              </a>
-            </p>
           </div>
         </div>
+        <br />
+        <br />
+        <br />
+      </section>
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Angular</li>
+          <li class="skills__list-item btn btn--plain">C</li>
+          <li class="skills__list-item btn btn--plain">BootStrap</li>
+          <li class="skills__list-item btn btn--plain">FireBase</li>
+          <li class="skills__list-item btn btn--plain">PHP</li>
+          <li class="skills__list-item btn btn--plain">Figma</li>
+          <li class="skills__list-item btn btn--plain">Canva</li>
+          <li class="skills__list-item btn btn--plain">GitHub</li>
+          <li class="skills__list-item btn btn--plain">Linux</li>
+        </ul>
+      </section>
 
+      <!-- certificates -->
+      <section id="certificates" class="section certificates">
+        <h2 class="section__title">Certificates</h2>
+        <div class="certificates__grid">
+          <div class="card">
+            <div class="content">
+              <div class="icon">
+                <img src="icons/Udemy-Logo.png" alt="udemy" />
+              </div>
+              <p class="cheading">
+                Introduction to programming Using Python
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </p>
 
-        <div class="card">
-          <div class="content">
-            <div class="icon">
-              <img src="/icons/Udemy-Logo.png" alt="udemy logo">
+              <p class="para para-sm">
+                <span class="date">Jun 12, 2024</span>
+                <a
+                  href="https://udemy-certificate.s3.amazonaws.com/image/UC-385c6ecb-922a-4e55-82aa-8cbb74fa27eb.jpg?v=1634193886000"
+                  target="_blank"
+                  aria-label="live preview"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+              </p>
             </div>
-            <p class="cheading">Adobe Photoshop
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
-            <!-- <p class="para">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p> -->
-            <p class="para para-sm">
-              <span class="date">Jul 20, 2021</span>
-              <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-244390ce-c45b-40c7-bfb3-d97e6c04f19e.jpg?v=1626771409000"
-                target="_blank" aria-label="live preview">
-                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-              </a>
-            </p>
           </div>
-        </div>
-
-        <div class="card">
-          <div class="content">
-            <div class="icon">
-              <img src="icons/ibm.png" alt="IBM Logo">
-            </div>
-            <p class="cheading">Introduction to Cloud Computing
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            <!-- <p class="para">
-              this is work is progress so hit to pinnned tabs to see the course
-            </p> -->
-            <p class="para para-sm">
-              <span class="date">Aug 9, 2024</span>
-              <a href="https://example.com"
-                target="_blank" aria-label="live preview">
-                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-              </a>
-            </p>
-          </div>
-        </div>
 
           <div class="card">
-          <div class="content">
-            <div class="icon">
-              <img src="icons/harckerrank3.webp" alt="Cisco Logo">
-            </div>
-            <p class="cheading">Python (Basic)
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
-            <!-- <p class="para">
+            <div class="content">
+              <div class="icon">
+                <img src="icons\JP-Morgan-Chase-Emblem.png" alt="jpm" />
+              </div>
+              <p class="cheading">
+                J.P.Morgan-Software Engineering
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </p>
+              <!-- <p class="para">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p> -->
-            <p class="para para-sm">
-              <span class="date">Apr 5, 2024</span>
-              <a href="https://www.hackerrank.com/certificates/364097acc546"
-                target="_blank" aria-label="live preview">
-                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-              </a>
-            </p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="content">
-            <div class="icon">
-              <img src="icons/harckerrank3.webp" alt="Cisco Logo">
+              <p class="para para-sm">
+                <span class="date">Mar 28, 2024</span>
+                <a
+                  href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_gn4qj4H47T9pZqoLc_1721556860858_completion_certificate.pdf"
+                  target="_blank"
+                  aria-label="live preview"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+              </p>
             </div>
-            <p class="cheading">Problem Solving (Basic)</p>
-            <!-- <p class="para">
+          </div>
+
+          <div class="card">
+            <div class="content">
+              <div class="icon">
+                <img
+                  src="icons\Goldman-Sachs-Logo-2020.png"
+                  alt="GoldmanSach"
+                />
+              </div>
+              <p class="cheading">
+                Goldman-Sachs Software Developer
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </p>
+
+              <!--this one is also in progress so hit in stared tabs'''-->
+              <p class="para para-sm">
+                <span class="date">Jul 1, 2024</span>
+                <a
+                  href="https://example.com/"
+                  target="_blank"
+                  aria-label="live preview"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="content">
+              <div class="icon">
+                <img src="/icons/Udemy-Logo.png" alt="udemy logo" />
+              </div>
+              <p class="cheading">
+                Adobe Photoshop
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </p>
+              <!-- <p class="para">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p> -->
-            <p class="para para-sm">
-              <span class="date">Aug 27, 2023</span>
-              <a href="https://www.hackerrank.com/certificates/546a9ef530de"
-                target="_blank" aria-label="live preview">
-                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-              </a>
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="content">
-            <div class="icon">
-              <img src="icons/aws-icon.png" alt="AWS Logo">
+              <p class="para para-sm">
+                <span class="date">Jul 20, 2021</span>
+                <a
+                  href="https://udemy-certificate.s3.amazonaws.com/image/UC-244390ce-c45b-40c7-bfb3-d97e6c04f19e.jpg?v=1626771409000"
+                  target="_blank"
+                  aria-label="live preview"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+              </p>
             </div>
-            <p class="cheading">AWS Cloud Foundations
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
-            <!-- <p class="para">
+          </div>
+
+          <div class="card">
+            <div class="content">
+              <div class="icon">
+                <img src="icons/ibm.png" alt="IBM Logo" />
+              </div>
+              <p class="cheading">
+                Introduction to Cloud Computing
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </p>
+              <!-- <p class="para">
+              this is work is progress so hit to pinnned tabs to see the course
+            </p> -->
+              <p class="para para-sm">
+                <span class="date">Aug 9, 2024</span>
+                <a
+                  href="https://example.com"
+                  target="_blank"
+                  aria-label="live preview"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="content">
+              <div class="icon">
+                <img src="icons/harckerrank3.webp" alt="Cisco Logo" />
+              </div>
+              <p class="cheading">
+                Python (Basic)
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </p>
+              <!-- <p class="para">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p> -->
-            <p class="para para-sm">
-              <span class="date">Mar 28, 2024</span>
-              <a href="https://example.com/"
-                target="_blank" aria-label="live preview">
-                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-              </a>
-            </p>
-          </div>
-        </div>
-
-
-        <div class="card">
-          <div class="content">
-            <div class="icon">
-              <img src="icons/linux foundation.png" alt="Cisco Logo">
+              <p class="para para-sm">
+                <span class="date">Apr 5, 2024</span>
+                <a
+                  href="https://www.hackerrank.com/certificates/364097acc546"
+                  target="_blank"
+                  aria-label="live preview"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+              </p>
             </div>
-            <p class="cheading">Linux Tools for Developers
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-           
-           <!--this one is also in progress so hit in stared tabs'''-->
-            <p class="para para-sm">
-              <span class="date">Jul 1, 2024</span>
-              <a href="https://example.com/"
-                target="_blank" aria-label="live preview">
-                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-              </a>
-            </p>
+          </div>
+
+          <div class="card">
+            <div class="content">
+              <div class="icon">
+                <img src="icons/harckerrank3.webp" alt="Cisco Logo" />
+              </div>
+              <p class="cheading">Problem Solving (Basic)</p>
+              <!-- <p class="para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p> -->
+              <p class="para para-sm">
+                <span class="date">Aug 27, 2023</span>
+                <a
+                  href="https://www.hackerrank.com/certificates/546a9ef530de"
+                  target="_blank"
+                  aria-label="live preview"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <div class="icon">
+                <img src="icons/aws-icon.png" alt="AWS Logo" />
+              </div>
+              <p class="cheading">
+                AWS Cloud Foundations
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </p>
+              <!-- <p class="para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p> -->
+              <p class="para para-sm">
+                <span class="date">Mar 28, 2024</span>
+                <a
+                  href="https://example.com/"
+                  target="_blank"
+                  aria-label="live preview"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="content">
+              <div class="icon">
+                <img src="icons/linux foundation.png" alt="Cisco Logo" />
+              </div>
+              <p class="cheading">
+                Linux Tools for Developers
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </p>
+
+              <!--this one is also in progress so hit in stared tabs'''-->
+              <p class="para para-sm">
+                <span class="date">Jul 1, 2024</span>
+                <a
+                  href="https://example.com/"
+                  target="_blank"
+                  aria-label="live preview"
+                >
+                  <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+                </a>
+              </p>
+            </div>
           </div>
         </div>
+      </section>
 
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:omsonawane03@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
 
+        <br />
 
-      </div>
-    </section>
+        <div class="scard">
+          <!-- <span>Social Links</span> -->
+          <span class="btn btn--outline">Social Links</span>
 
+          <a
+            class="social-link"
+            href="https://x.com/sonawane03"
+            target="_blank"
+          >
+            <img
+              src="icons/x-social-media-black-icon.png"
+              alt="Social Icon 1"
+            />
+          </a>
+          <a
+            class="social-link"
+            href="https://github.com/om-sonawane"
+            target="_blank"
+          >
+            <img src="icons/github-icon.png" alt="Social Icon 2" />
+          </a>
+          <a
+            class="social-link"
+            href="https://www.instagram.com/om_sonawane_03/"
+            target="_blank"
+          >
+            <img src="icons/black-instagram-icon.png" alt="Social Icon 3" />
+          </a>
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/in/om-sonawane-23bab11b8/"
+            target="_blank"
+          >
+            <img src="icons/linkedin-square-icon.png" alt="Social Icon 4" />
+          </a>
+          <a
+            class="social-link"
+            href="https://linktr.ee/omsonawane03"
+            target="_blank"
+          >
+            <img src="icons/open-external-link-icon.png" alt="Social Icon 4" />
+          </a>
+        </div>
+      </section>
+    </main>
 
-    <!-- Contact -->
-    <section class="section contact center" id="contact">
-      <h2 class="section__title">Contact</h2>
-      <a href="mailto:omsonawane03@gmail.com">
-        <span class="btn btn--outline">Email me</span>
+    <footer class="footer">
+      <a
+        href="https://linktr.ee/omsonawane03"
+        target="_blank"
+        class="link footer__link"
+      >
+        Created By OM SONAWANE
       </a>
 
-      <br>
-
-      <div class="scard">
-        <!-- <span>Social Links</span> -->
-        <span class="btn btn--outline">Social Links</span>
-
-        <a class="social-link" href="https://x.com/sonawane03" target="_blank">
-          <img src="icons/x-social-media-black-icon.png" alt="Social Icon 1">
-        </a>
-        <a class="social-link" href="https://github.com/om-sonawane" target="_blank">
-          <img src="icons/github-icon.png" alt="Social Icon 2">
-        </a>
-        <a class="social-link" href="https://www.instagram.com/om_sonawane_03/" target="_blank">
-          <img src="icons/black-instagram-icon.png" alt="Social Icon 3">
-        </a>
-        <a class="social-link" href="https://www.linkedin.com/in/om-sonawane-23bab11b8/" target="_blank">
-          <img src="icons/linkedin-square-icon.png" alt="Social Icon 4">
-        </a>
-        <a class="social-link" href="https://linktr.ee/omsonawane03" target="_blank">
-          <img src="icons/open-external-link-icon.png" alt="Social Icon 4">
-        </a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <a href="https://linktr.ee/omsonawane03" target="_blank" class="link footer__link">
-      Created By OM SONAWANE
-    </a>
-
-    <br><br>
-
+      <br /><br />
     </footer>
 
-  <div class="scroll-container">
-    <div class="scroll-top">
-      <a aria-label="Scroll up" href="#top">
-        <i aria-hidden="true" class="fas fa-arrow-up"></i>
-      </a>
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
     </div>
-  </div>
 
-  <script src="./script.js"></script>
-</body>
-
+    <script src="./script.js"></script>
+  </body>
 </html>
