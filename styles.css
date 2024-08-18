@@ -40,7 +40,7 @@ body {
 .dark {
   --clr-bg: #24011b;
   --clr-bg-alt: #2a2f4c;
-  --clr-fg: #000000;
+  --clr-fg: #ffffff;
   --clr-fg-alt: #f4f4f9;
   --clr-primary: #f9c5da;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
