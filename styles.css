@@ -541,6 +541,7 @@ main {
   border-radius: 24px;
   line-height: 1.6;
   transition: all 0.64s cubic-bezier(0.23, 1, 0.32, 1);
+  box-shadow: 3px 3px 5px 1px black;
 }
 
 .content {
@@ -550,7 +551,7 @@ main {
   gap: 15px;
   padding: 25px;
   border-radius: 24px;
-  background: transparent;
+  background-color: transparent;
   color: #000000;
   z-index: 1;
   transition: all 0.64s cubic-bezier(0.23, 1, 0.32, 1);
@@ -561,7 +562,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #2978b5;
+  background-color: #9a5f9f;
   border-radius: inherit;
   height: 100%;
   width: 100%;
@@ -636,7 +637,7 @@ main {
 
 .card:hover .icon {
   background-color: #ffffff;
-  color: #2978b5;
+  color: #ad76ba;
 }
 
 .certificates__grid {
@@ -813,7 +814,7 @@ main {
   content: "";
   left: 0;
   justify-content: flex-end;
-  background-color: #4d60b6;
+  background-color: #b561bb;
 }
 
 .scard::after {
@@ -871,7 +872,7 @@ main {
 }
 
 .scard .social-link img {
-  text-shadow: 1px 1px rgba(31, 74, 121, 0.7);
+  text-shadow: 1px 1px rgba(150, 87, 161, 0.7);
   transform: scale(1);
 }
 
