@@ -2,6 +2,8 @@ const body = document.body;
 const btnTheme = document.querySelector(".fa-moon");
 const btnHamburger = document.querySelector(".fa-bars");
 const logo = document.getElementById('logo'); // logo id banvli ahe main madhy
+const { JSDOM } = require('jsdom');
+const { document } = (new JSDOM('')).window;
 
 // Function to add a theme class to the body and button
 const addThemeClass = (bodyClass, btnClass) => {
