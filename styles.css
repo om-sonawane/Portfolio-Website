@@ -332,22 +332,37 @@ main {
   margin-left: 0.5em;
 }
 */
-.projects__grid {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-  grid-gap: 2em;
+/* Section Styling */
+.section {
+  padding: 2em 1em;
+  /* background-color: #f9f9f9; */
+  text-align: center;
 }
 
+.section__title {
+  font-size: 2rem;
+  margin-bottom: 1.5em;
+  color: #333;
+}
+
+/* Projects Grid */
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Project Card */
 .project {
-  perspective: 1000px; /* Gives depth to the flip effect */
+  perspective: 1000px;
 }
 
 .project__inner {
   position: relative;
   width: 100%;
-  height: 100%;
+  padding-top: 70%; /* Reduced height by setting the aspect ratio */
   transform-style: preserve-3d;
   transition: transform 0.6s;
 }
@@ -356,42 +371,52 @@ main {
   transform: rotateY(180deg);
 }
 
-.project__front, .project__back {
+/* Card Front and Back */
+.project__front,
+.project__back {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  border-radius: 8px; /* Added unit to the border-radius */
+  overflow: hidden;
 }
 
 .project__front {
-  background-color: #000000;
-  color: white;
+  background-color: #00000000;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .project__back {
-  
-  color: white;
+  background-color: #33333300;
+  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transform: rotateY(180deg);
   padding: 1em;
+  text-align: center;
 }
-
+/* Image Styling */
 .project__image {
   max-width: 100%;
   height: auto;
 }
 
+/* Project Description */
 .project__description {
+  font-size: 0.9rem;
   margin-top: 1em;
+  color: #070707;
   text-align: justify;
 }
 
+/* Stack List */
 .project__stack {
   display: flex;
   flex-wrap: wrap;
@@ -401,18 +426,27 @@ main {
 
 .project__stack-item {
   margin: 0.5em;
-  font-weight: 500;
+  padding: 0.3em 0.6em;
+  background-color: #444;
+  color: #fff;
+  border-radius: 4px;
   font-size: 0.8rem;
-  color: var(--clr-fg-alt);
 }
+
+/* Links Container */
 .links-container {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px; /* Space between the icons */
+  gap: 10px;
 }
+
 .link--icon {
-  display: flex;
-  align-items: center;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.link--icon:hover {
+  color: #007bff;
 }
 
 
